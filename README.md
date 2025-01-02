@@ -2,7 +2,7 @@
 
   ### Description
 
-MongoDB is a popular choice for making databases to its speed with large amounts of data and flexibility with unstructured data. The following application is a social network web app where users can share their thoughts, react to friends’ thoughts and create a friend list. Using Express.js for routes, MongoDB for the database and Mongoose ODM. To test the database, the application Insomnia was used to look at the functionality and seeding the data.
+MongoDB is a popular choice for making databases for its ability to handle large amounts of data and flexibility with unstructured data. The following application is a social network web app where users can share their thoughts, react to friends’ thoughts and create a friend list. Using Express.js for routes, MongoDB for the database and Mongoose ODM. To test the database, the application Insomnia was used to look at the functionality and seeding the data.
 
   ## Table of Contents 
   
