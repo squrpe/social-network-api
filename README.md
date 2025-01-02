@@ -1,41 +1,45 @@
 # Social Network API (MongoDB & Mongoose)
 
-  ## Description
+  ### Description
 
-MongoDB is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. The following application is a social network web app where users can share their thoughts, react to friends’ thoughts, and create a friend list. Using Express.js for routes, MongoDB for databasing and Mongoose ODM. To test the database, Insomnia was used to look at the functionality by seeding the data.
+MongoDB is a popular choice for making databases to its speed with large amounts of data and flexibility with unstructured data. The following application is a social network web app where users can share their thoughts, react to friends’ thoughts and create a friend list. Using Express.js for routes, MongoDB for the database and Mongoose ODM. To test the database, the application Insomnia was used to look at the functionality and seeding the data.
 
   ## Table of Contents 
-  - [Description](#description)
+  
+  - [Built With](#built-with)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Testing](#testing)
-  - [Questions](#questions)
+  - [Credits](#credits)
+  - [Contact](#contact)
+  - [License](#license)
+
+  ## Built With
+
+  - Javascript ES6+
+  - Node.js
+  - Express.js
+  - MongoDB & Mongoose ODM
+  - Insomnia
 
   ## Installation
 
   Below is an example of how you can download the project onto your own device:
 
-  1. Open your devices terminal application
-  2. Locate to the correct file destination that you are wanting to download this project to
-  3. Clone the repository using this link: 
+  1. Clone the repository using this link: 
       ```md
           git clone https://github.com/squrpe/social-network-api.git
       ```
-  4. You may get prompted to input you github details, thus do so. Otherwise, the project will now be succesfully installed onto your device.
-
-  This project contains:
-  - Javascript
-  - Node.js
-  - Express.js
-  - MongoDB
-  - Mongoose
-  - Insomnia
-
-  You will need to download the suitable extensions / applications to test and run the application correctly.
+  
+  You will need to download the suitable extensions to run the application in the command line.
+  
+  2. Install the node modules needed for the project within the terminal
+      ```md
+          npm install
+      ```
 
   ## Usage
 
-  - Using node.js via the command line, download the needed npm packages by running `npm i`.
   - To start the server, use the node command `npm start`.
 
   Below is an example of the program in Insomnia when seeded:
@@ -74,13 +78,16 @@ MongoDB is a popular choice for many social networks due to its speed with large
   - Create Reaction by Id: `POST` `/api/thoughts/:thoughtId/reactions/:reactionId`
   - Delete Reaction by Id: `DELETE` `/api/thoughts/:thoughtId/reactions/:reactionId`
 
-  ## Questions
-
-  If you have any questions, contact me here:
-  - Email: squrpe@example.com
-
-  And if you want to see my additonal work, check out my Github:
-  - Github: [squrpe](https://github.com/squrpe)
-
-  Deployment of the project:
-  - [https://github.com/squrpe/social-network-api](https://github.com/squrpe/social-network-api)
+  ## Credits
+  
+  Project Idea: The University of Adelaide Coding Bootcamp
+  
+  ## Contact
+  
+  Lara Nicole - [grockelara@gmail.com](grockelara@gmail.com)
+  
+  Project Link - https://github.com/squrpe/social-network-api
+  
+  ## License
+  
+  Distributed under the MIT License. See LICENSE.txt for more information.
