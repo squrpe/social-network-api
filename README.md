@@ -84,9 +84,11 @@ MongoDB is a popular choice for making databases for its ability to handle large
   
   ## Contact
   
-  Lara Nicole - [grockelara@gmail.com](grockelara@gmail.com)
+  Lara Grocke - [grockelara@gmail.com](grockelara@gmail.com)
   
   Project Link - https://github.com/squrpe/social-network-api
+
+  LinkedIn - https://www.linkedin.com/in/laragrocke001
   
   ## License
   
